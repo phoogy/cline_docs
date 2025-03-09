@@ -86,7 +86,7 @@ flowchart TD
    - Known issues
 
 ### Additional Context
-Create additional files/folders within memory-bank/ when they help organize:
+Create additional files/folders within .vscode/memory-bank/ when they help organize:
 - Complex feature documentation
 - Integration specifications
 - API documentation
@@ -145,7 +145,7 @@ flowchart TD
 
 Note: When triggered by **update memory bank**, I MUST review every memory bank file, even if some don't require updates. Focus particularly on activeContext.md and progress.md as they track current state.
 
-## Project Intelligence (.clinerules)
+## Project Intelligence (.vscode/.clinerules)
 
 The .clinerules file is my learning journal for each project. It captures important patterns, preferences, and project intelligence that help me work more effectively. As I work with you and the project, I'll discover and document key insights that aren't obvious from the code alone.
 
@@ -186,7 +186,7 @@ REMEMBER: After every memory reset, I begin completely fresh. The Memory Bank is
 
 #### First Time Setup
 
-1. Create a `memory-bank/` folder in your project root
+1. Create a `.vscode/memory-bank/` folder in your project root
 2. Have a project brief ready (can be technical or non-technical)
 3. Ask Cline to "initialize memory bank"
 
